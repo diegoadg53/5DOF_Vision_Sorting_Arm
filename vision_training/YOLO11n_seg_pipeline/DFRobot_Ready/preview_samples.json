@@ -1,0 +1,170 @@
+[
+  {
+    "ground_truth_class": 0,
+    "image": "frame_039600.png",
+    "predicted_classes": [
+      0
+    ],
+    "confidences": [
+      0.9735128879547119
+    ]
+  },
+  {
+    "ground_truth_class": 0,
+    "image": "frame_039825.png",
+    "predicted_classes": [
+      0
+    ],
+    "confidences": [
+      0.9087446928024292
+    ]
+  },
+  {
+    "ground_truth_class": 1,
+    "image": "frame_006660.png",
+    "predicted_classes": [
+      1
+    ],
+    "confidences": [
+      0.9610108137130737
+    ]
+  },
+  {
+    "ground_truth_class": 1,
+    "image": "frame_016965.png",
+    "predicted_classes": [
+      1
+    ],
+    "confidences": [
+      0.8954399824142456
+    ]
+  },
+  {
+    "ground_truth_class": 2,
+    "image": "frame_019440.png",
+    "predicted_classes": [
+      2
+    ],
+    "confidences": [
+      0.7663882374763489
+    ]
+  },
+  {
+    "ground_truth_class": 2,
+    "image": "frame_019755.png",
+    "predicted_classes": [
+      4,
+      2
+    ],
+    "confidences": [
+      0.970862627029419,
+      0.601233959197998
+    ]
+  },
+  {
+    "ground_truth_class": 3,
+    "image": "frame_027165.png",
+    "predicted_classes": [
+      3
+    ],
+    "confidences": [
+      0.8460531234741211
+    ]
+  },
+  {
+    "ground_truth_class": 3,
+    "image": "frame_028620.png",
+    "predicted_classes": [
+      7,
+      3
+    ],
+    "confidences": [
+      0.9571748971939087,
+      0.8076636791229248
+    ]
+  },
+  {
+    "ground_truth_class": 4,
+    "image": "frame_019485.png",
+    "predicted_classes": [
+      4,
+      2
+    ],
+    "confidences": [
+      0.9400569796562195,
+      0.8839834928512573
+    ]
+  },
+  {
+    "ground_truth_class": 4,
+    "image": "frame_019875.png",
+    "predicted_classes": [
+      4
+    ],
+    "confidences": [
+      0.8892192840576172
+    ]
+  },
+  {
+    "ground_truth_class": 5,
+    "image": "frame_039450.png",
+    "predicted_classes": [
+      5
+    ],
+    "confidences": [
+      0.8055214881896973
+    ]
+  },
+  {
+    "ground_truth_class": 5,
+    "image": "frame_039735.png",
+    "predicted_classes": [
+      5
+    ],
+    "confidences": [
+      0.9424871802330017
+    ]
+  },
+  {
+    "ground_truth_class": 6,
+    "image": "frame_034200.png",
+    "predicted_classes": [
+      7,
+      4
+    ],
+    "confidences": [
+      0.9438143372535706,
+      0.7299551963806152
+    ]
+  },
+  {
+    "ground_truth_class": 6,
+    "image": "frame_034485.png",
+    "predicted_classes": [
+      4
+    ],
+    "confidences": [
+      0.8523213863372803
+    ]
+  },
+  {
+    "ground_truth_class": 7,
+    "image": "frame_022995.png",
+    "predicted_classes": [
+      7
+    ],
+    "confidences": [
+      0.9702335596084595
+    ]
+  },
+  {
+    "ground_truth_class": 7,
+    "image": "frame_034305.png",
+    "predicted_classes": [
+      7
+    ],
+    "confidences": [
+      0.9479246139526367
+    ]
+  }
+]

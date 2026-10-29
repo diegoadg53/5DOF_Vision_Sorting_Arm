@@ -1,0 +1,254 @@
+[
+  {
+    "letter": "A",
+    "track_id": 3,
+    "time": 11.237682978163642,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "B",
+    "track_id": 18,
+    "time": 76.62056576020665,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "C",
+    "track_id": 47,
+    "time": 175.71649747674059,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "D",
+    "track_id": 72,
+    "time": 280.43127068235634,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "E",
+    "track_id": 87,
+    "time": 325.3820025950109,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "F",
+    "track_id": 99,
+    "time": 380.03800617062495,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "G",
+    "track_id": 117,
+    "time": 491.39322840879197,
+    "class_name": "Pieza_02",
+    "class_id": 1,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "H",
+    "track_id": 147,
+    "time": 605.8132732773672,
+    "class_name": "Pieza_05",
+    "class_id": 4,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "I",
+    "track_id": 151,
+    "time": 611.9429185381838,
+    "class_name": "Pieza_05",
+    "class_id": 4,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "J",
+    "track_id": 158,
+    "time": 623.6914052880821,
+    "class_name": "Pieza_05",
+    "class_id": 4,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "K",
+    "track_id": 161,
+    "time": 629.8210505488986,
+    "class_name": "Pieza_05",
+    "class_id": 4,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "L",
+    "track_id": 181,
+    "time": 678.3474088636962,
+    "class_name": "Pieza_05",
+    "class_id": 4,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "M",
+    "track_id": 239,
+    "time": 858.1503365143144,
+    "class_name": "Pieza_04",
+    "class_id": 3,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "N",
+    "track_id": 244,
+    "time": 865.3015893186003,
+    "class_name": "Pieza_04",
+    "class_id": 3,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "O",
+    "track_id": 437,
+    "time": 1277.0094293367774,
+    "class_name": "Pieza_01",
+    "class_id": 0,
+    "verified_by": "user",
+    "polygon_complete": false
+  },
+  {
+    "letter": "P",
+    "track_id": 443,
+    "time": 1286.714700999737,
+    "class_name": "Pieza_06",
+    "class_id": 5,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "Q",
+    "track_id": 150,
+    "time": 607.3456845925714,
+    "class_name": "Pieza_03",
+    "class_id": 2,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "R",
+    "track_id": 153,
+    "time": 612.9645260816532,
+    "class_name": "Pieza_03",
+    "class_id": 2,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "S",
+    "track_id": 173,
+    "time": 656.8936504508383,
+    "class_name": "Pieza_03",
+    "class_id": 2,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "T",
+    "track_id": 190,
+    "time": 698.7795597330846,
+    "class_name": "Pieza_03",
+    "class_id": 2,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "U",
+    "track_id": 234,
+    "time": 840.7830082753343,
+    "class_name": "Pieza_08",
+    "class_id": 7,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "V",
+    "track_id": 237,
+    "time": 853.0422987969673,
+    "class_name": "Pieza_08",
+    "class_id": 7,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "W",
+    "track_id": 308,
+    "time": 996.5781586544211,
+    "class_name": "Pieza_04",
+    "class_id": 3,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "X",
+    "track_id": 315,
+    "time": 1004.2402152304418,
+    "class_name": "Pieza_04",
+    "class_id": 3,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "Y",
+    "track_id": 324,
+    "time": 1024.6723660998302,
+    "class_name": "Pieza_07",
+    "class_id": 6,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "Z",
+    "track_id": 333,
+    "time": 1037.442460393198,
+    "class_name": "Pieza_07",
+    "class_id": 6,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "AA",
+    "track_id": 395,
+    "time": 1183.0215353375906,
+    "class_name": "Pieza_06",
+    "class_id": 5,
+    "verified_by": "user",
+    "polygon_complete": true
+  },
+  {
+    "letter": "AB",
+    "track_id": 432,
+    "time": 1261.6853161847362,
+    "class_name": "Pieza_08",
+    "class_id": 7,
+    "verified_by": "user",
+    "polygon_complete": true
+  }
+]

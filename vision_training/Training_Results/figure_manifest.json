@@ -1,0 +1,71 @@
+{
+  "prepared_date": "2026-10-28",
+  "architecture": "YOLO11n-seg",
+  "source_onnx_sha256": "10baf9306cdc788171746e60c9060f5725f49aff273db56342b40c19acbfba23",
+  "run": {
+    "epochs_completed": 106,
+    "best_epoch": 81,
+    "best_training_time_validation": {
+      "epoch": 81.0,
+      "time": 4280.65,
+      "train/box_loss": 0.3195,
+      "train/seg_loss": 0.4249,
+      "train/cls_loss": 0.41681,
+      "train/dfl_loss": 0.7855,
+      "train/sem_loss": 0.0,
+      "metrics/precision(B)": 0.94026,
+      "metrics/recall(B)": 0.93399,
+      "metrics/mAP50(B)": 0.98046,
+      "metrics/mAP50-95(B)": 0.92521,
+      "metrics/precision(M)": 0.94026,
+      "metrics/recall(M)": 0.93399,
+      "metrics/mAP50(M)": 0.98046,
+      "metrics/mAP50-95(M)": 0.74802,
+      "val/box_loss": 0.31831,
+      "val/seg_loss": 0.44874,
+      "val/cls_loss": 0.41577,
+      "val/dfl_loss": 0.78746,
+      "val/sem_loss": 0.0,
+      "lr/pg0": 0.00028322,
+      "lr/pg1": 0.00028322,
+      "lr/pg2": 0.00028322
+    }
+  },
+  "reference_confidence": 0.56,
+  "mask_match_iou": 0.5,
+  "test_counts_reproduced": true,
+  "versions": {
+    "numpy": "2.3.1",
+    "matplotlib": "3.10.5",
+    "ultralytics": "8.4.70",
+    "onnxruntime": "1.27.0",
+    "torch": "2.6.0+cu124"
+  },
+  "sources": [
+    "YOLO11n_seg_pipeline/runs/yolo11n_seg_640/results.csv",
+    "YOLO11n_seg_pipeline/dataset/audit.json",
+    "YOLO11n_seg_pipeline/DFRobot_Ready/accuracy_report.json",
+    "YOLO11n_seg_pipeline/DFRobot_Ready/export_verification.json"
+  ],
+  "outputs": [
+    "01_training_history.png",
+    "01_training_history.svg",
+    "02_dataset_balance.png",
+    "02_dataset_balance.svg",
+    "03_validation_vs_test.png",
+    "03_validation_vs_test.svg",
+    "04_precision_recall.png",
+    "04_precision_recall.svg",
+    "05_mask_confusion_matrix.png",
+    "05_mask_confusion_matrix.svg",
+    "06_mirrored_pair_examples.png",
+    "06_mirrored_pair_examples.svg",
+    "07_all_class_predictions.jpg",
+    "08_per_class_results_table.png",
+    "08_per_class_results_table.svg",
+    "example_sources.json",
+    "generate_training_figures.py",
+    "mask_confusion_data.json",
+    "README.md"
+  ]
+}

@@ -1,0 +1,13 @@
+path: C:/Users/diego/OneDrive/UVG/PryGrd/Entrenamiento_Modelo/Entrenamiento_V3/YOLO11n_seg_pipeline/dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Pieza_01
+  1: Pieza_02
+  2: Pieza_03
+  3: Pieza_04
+  4: Pieza_05
+  5: Pieza_06
+  6: Pieza_07
+  7: Pieza_08

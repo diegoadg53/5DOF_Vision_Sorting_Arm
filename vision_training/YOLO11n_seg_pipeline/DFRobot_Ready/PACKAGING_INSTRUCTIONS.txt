@@ -1,0 +1,16 @@
+DFRobot HUSKYLENS 2 Model Installation Package Generator
+
+Data source: YOLO
+Dataset folder: C:\Users\diego\OneDrive\UVG\PryGrd\Entrenamiento_Modelo\Entrenamiento_V3\YOLO11n_seg_pipeline\dataset
+ONNX model: C:\Users\diego\OneDrive\UVG\PryGrd\Entrenamiento_Modelo\Entrenamiento_V3\YOLO11n_seg_pipeline\DFRobot_Ready\best.onnx
+Task: Segmentation
+Model: YOLO11n
+Input size: 640
+Class IDs 0..7 correspond to Pieza_01..Pieza_08.
+Keep the generated installation ZIP filename and contents unchanged.
+Camera destination: Huskylens\storage\installation_package
+Then select Model Installation > Local Installation.
+
+The ONNX checks do not replace a quantized model test on the camera.
+
+Measured quality: see MODEL_REPORT.md and test_predictions.jpg. Pieza_05/Pieza_07 remain a weak pair; reliable recognition of all eight identities is not established.

@@ -1,0 +1,27 @@
+# STM32CubeIDE build output and local launch configurations
+firmware/Nucleo_CodeV2/Debug/
+firmware/Nucleo_CodeV2/Release/
+*.launch
+
+# Arduino and editor files
+build/
+.vscode/
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MATLAB autosave and generated figures
+*.asv
+matlab/*.png
+
+# Output of tools/joint_motion_report.py
+joint_motion_runs/
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store

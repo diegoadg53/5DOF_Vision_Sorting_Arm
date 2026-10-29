@@ -1,0 +1,16 @@
+{
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\diego\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "packages": {
+    "ultralytics": "8.4.70",
+    "torch": "2.6.0+cu124",
+    "opencv-python": "4.13.0.92",
+    "numpy": "2.3.1",
+    "Pillow": "11.3.0",
+    "onnx": "1.22.0",
+    "onnxruntime": "1.27.0",
+    "onnxslim": "0.1.94",
+    "scipy": "1.16.3",
+    "PyYAML": "6.0.2"
+  }
+}

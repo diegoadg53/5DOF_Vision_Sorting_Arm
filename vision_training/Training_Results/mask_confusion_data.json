@@ -1,0 +1,3451 @@
+{
+  "confidence": 0.56,
+  "mask_iou": 0.5,
+  "nms_iou": 0.7,
+  "rows": "predicted class; final row = unmatched ground truth",
+  "columns": "true class; final column = unmatched prediction",
+  "matching": "Correct-class matches first, descending confidence, then remaining wrong-class masks by descending IoU. This preserves the original TP/FP/FN counts.",
+  "names": [
+    "Pieza_01",
+    "Pieza_02",
+    "Pieza_03",
+    "Pieza_04",
+    "Pieza_05",
+    "Pieza_06",
+    "Pieza_07",
+    "Pieza_08",
+    "Background"
+  ],
+  "matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      49,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      26,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      12,
+      0,
+      12,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      46,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "original_operating_counts_reproduced": true,
+  "images": [
+    {
+      "image": "frame_006600.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_006660.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9610108137130737
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8989298454221165
+        }
+      ]
+    },
+    {
+      "image": "frame_006675.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.970963716506958
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9199522102747909
+        }
+      ]
+    },
+    {
+      "image": "frame_006690.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9695333242416382
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9020070838252656
+        }
+      ]
+    },
+    {
+      "image": "frame_006705.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9564259648323059
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9285714285714286
+        }
+      ]
+    },
+    {
+      "image": "frame_006720.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9454694390296936
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.934640522875817
+        }
+      ]
+    },
+    {
+      "image": "frame_006735.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9667049050331116
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9212362911266201
+        }
+      ]
+    },
+    {
+      "image": "frame_006750.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9623044729232788
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9414634146341463
+        }
+      ]
+    },
+    {
+      "image": "frame_006870.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9486148357391357
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9210084033613445
+        }
+      ]
+    },
+    {
+      "image": "frame_006885.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9152778387069702
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9246753246753247
+        }
+      ]
+    },
+    {
+      "image": "frame_006900.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9524710774421692
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8988361683079678
+        }
+      ]
+    },
+    {
+      "image": "frame_006915.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9580854177474976
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9047619047619048
+        }
+      ]
+    },
+    {
+      "image": "frame_006930.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9638270139694214
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9142857142857143
+        }
+      ]
+    },
+    {
+      "image": "frame_006945.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9605952501296997
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9325955734406438
+        }
+      ]
+    },
+    {
+      "image": "frame_006960.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9581286907196045
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9365558912386707
+        }
+      ]
+    },
+    {
+      "image": "frame_006975.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9130800366401672
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8731117824773413
+        }
+      ]
+    },
+    {
+      "image": "frame_009495.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9415853023529053
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8898305084745762
+        }
+      ]
+    },
+    {
+      "image": "frame_009510.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9504228830337524
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8756260434056762
+        }
+      ]
+    },
+    {
+      "image": "frame_009525.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9716544151306152
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8819444444444444
+        }
+      ]
+    },
+    {
+      "image": "frame_009540.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9647445678710938
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8982423681776133
+        }
+      ]
+    },
+    {
+      "image": "frame_009555.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9538812041282654
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9213372664700098
+        }
+      ]
+    },
+    {
+      "image": "frame_009570.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9583241939544678
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9082125603864735
+        }
+      ]
+    },
+    {
+      "image": "frame_009585.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9672567844390869
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.918918918918919
+        }
+      ]
+    },
+    {
+      "image": "frame_009600.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9634607434272766
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.919047619047619
+        }
+      ]
+    },
+    {
+      "image": "frame_009735.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9542745351791382
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.928
+        }
+      ]
+    },
+    {
+      "image": "frame_009750.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9547512531280518
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9163602941176471
+        }
+      ]
+    },
+    {
+      "image": "frame_009765.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9515501856803894
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.918991899189919
+        }
+      ]
+    },
+    {
+      "image": "frame_009780.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9601579904556274
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9255978742249779
+        }
+      ]
+    },
+    {
+      "image": "frame_009795.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9520174264907837
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9315068493150684
+        }
+      ]
+    },
+    {
+      "image": "frame_009810.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9602271318435669
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9269521410579346
+        }
+      ]
+    },
+    {
+      "image": "frame_009825.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9630134701728821
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9119086460032626
+        }
+      ]
+    },
+    {
+      "image": "frame_009840.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9535731077194214
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9327242524916943
+        }
+      ]
+    },
+    {
+      "image": "frame_016515.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.7033767700195312
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8688172043010752
+        }
+      ]
+    },
+    {
+      "image": "frame_016545.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8070777654647827
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9060955518945635
+        }
+      ]
+    },
+    {
+      "image": "frame_016560.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8094249963760376
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9081163859111792
+        }
+      ]
+    },
+    {
+      "image": "frame_016590.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9384673833847046
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9306930693069307
+        }
+      ]
+    },
+    {
+      "image": "frame_016605.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9635188579559326
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9157769869513642
+        }
+      ]
+    },
+    {
+      "image": "frame_016620.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9493130445480347
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8962795941375423
+        }
+      ]
+    },
+    {
+      "image": "frame_016695.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8715163469314575
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8968957871396895
+        }
+      ]
+    },
+    {
+      "image": "frame_016710.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9194082021713257
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8354564755838642
+        }
+      ]
+    },
+    {
+      "image": "frame_016770.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.881805419921875
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8763440860215054
+        }
+      ]
+    },
+    {
+      "image": "frame_016785.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9333854913711548
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8823529411764706
+        }
+      ]
+    },
+    {
+      "image": "frame_016845.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9358673691749573
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9090909090909091
+        }
+      ]
+    },
+    {
+      "image": "frame_016860.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9588442444801331
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8999037536092397
+        }
+      ]
+    },
+    {
+      "image": "frame_016875.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9430468082427979
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8960784313725491
+        }
+      ]
+    },
+    {
+      "image": "frame_016890.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9145952463150024
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.9028213166144201
+        }
+      ]
+    },
+    {
+      "image": "frame_016905.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9315395951271057
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8838495575221239
+        }
+      ]
+    },
+    {
+      "image": "frame_016920.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9480363130569458
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.867595818815331
+        }
+      ]
+    },
+    {
+      "image": "frame_016935.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8917912244796753
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8914728682170543
+        }
+      ]
+    },
+    {
+      "image": "frame_016950.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_016965.png",
+      "truth_classes": [
+        1
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8954399824142456
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 1,
+          "mask_iou": 0.8908227848101266
+        }
+      ]
+    },
+    {
+      "image": "frame_019440.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.7663882374763489
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.9114754098360656
+        }
+      ]
+    },
+    {
+      "image": "frame_019455.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.8319562077522278
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 2,
+          "mask_iou": 0.8516483516483516
+        }
+      ]
+    },
+    {
+      "image": "frame_019470.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.9422935247421265
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8728606356968215
+        }
+      ]
+    },
+    {
+      "image": "frame_019485.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9400569796562195
+        },
+        {
+          "class": 2,
+          "confidence": 0.8839834928512573
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9001161440185831
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8502304147465438
+        }
+      ]
+    },
+    {
+      "image": "frame_019500.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.9573174715042114
+        },
+        {
+          "class": 4,
+          "confidence": 0.942111611366272
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8792372881355932
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9074285714285715
+        }
+      ]
+    },
+    {
+      "image": "frame_019515.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.9739433526992798
+        },
+        {
+          "class": 4,
+          "confidence": 0.8781070709228516
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8875739644970414
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.8928974069898534
+        }
+      ]
+    },
+    {
+      "image": "frame_019530.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.9494377374649048
+        },
+        {
+          "class": 4,
+          "confidence": 0.8830854892730713
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8526315789473684
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.8975552968568102
+        }
+      ]
+    },
+    {
+      "image": "frame_019545.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.8796658515930176
+        },
+        {
+          "class": 6,
+          "confidence": 0.6638885736465454
+        },
+        {
+          "class": 4,
+          "confidence": 0.5848124027252197
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8848167539267016
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.908883826879271
+        }
+      ]
+    },
+    {
+      "image": "frame_019575.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.6302938461303711
+        },
+        {
+          "class": 6,
+          "confidence": 0.5938392877578735
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 6,
+          "true_class": 2,
+          "mask_iou": 0.9247787610619469
+        }
+      ]
+    },
+    {
+      "image": "frame_019590.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.8217999339103699
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 2,
+          "mask_iou": 0.9191919191919192
+        }
+      ]
+    },
+    {
+      "image": "frame_019650.png",
+      "truth_classes": [
+        2
+      ],
+      "predictions": [
+        {
+          "class": 2,
+          "confidence": 0.7365739941596985
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8260869565217391
+        }
+      ]
+    },
+    {
+      "image": "frame_019680.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.968660295009613
+        },
+        {
+          "class": 2,
+          "confidence": 0.9401698112487793
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.8985355648535565
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8583690987124464
+        }
+      ]
+    },
+    {
+      "image": "frame_019695.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9423850774765015
+        },
+        {
+          "class": 2,
+          "confidence": 0.8523057103157043
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9080919080919081
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8609865470852018
+        }
+      ]
+    },
+    {
+      "image": "frame_019710.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.954380989074707
+        },
+        {
+          "class": 2,
+          "confidence": 0.946563720703125
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9020771513353115
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8422330097087378
+        }
+      ]
+    },
+    {
+      "image": "frame_019725.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.964805006980896
+        },
+        {
+          "class": 2,
+          "confidence": 0.9062337875366211
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.8888888888888888
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8383838383838383
+        }
+      ]
+    },
+    {
+      "image": "frame_019740.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9678049087524414
+        },
+        {
+          "class": 2,
+          "confidence": 0.9466166496276855
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9072781655034895
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8478802992518704
+        }
+      ]
+    },
+    {
+      "image": "frame_019755.png",
+      "truth_classes": [
+        4,
+        2
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.970862627029419
+        },
+        {
+          "class": 2,
+          "confidence": 0.601233959197998
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9288537549407114
+        },
+        {
+          "predicted_class": 2,
+          "true_class": 2,
+          "mask_iou": 0.8527131782945736
+        }
+      ]
+    },
+    {
+      "image": "frame_019800.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_019875.png",
+      "truth_classes": [
+        4
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.8892192840576172
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 4,
+          "mask_iou": 0.9035004730368968
+        }
+      ]
+    },
+    {
+      "image": "frame_022995.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9702335596084595
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9053084648493543
+        }
+      ]
+    },
+    {
+      "image": "frame_023010.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9773790836334229
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8581173260572987
+        }
+      ]
+    },
+    {
+      "image": "frame_023025.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.969147264957428
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8599167822468793
+        }
+      ]
+    },
+    {
+      "image": "frame_023040.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9675432443618774
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8729281767955801
+        }
+      ]
+    },
+    {
+      "image": "frame_023055.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.970151424407959
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8763736263736264
+        }
+      ]
+    },
+    {
+      "image": "frame_023070.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9580622911453247
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8794520547945206
+        }
+      ]
+    },
+    {
+      "image": "frame_023085.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9690439105033875
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8924581005586593
+        }
+      ]
+    },
+    {
+      "image": "frame_023100.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9584681391716003
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9137931034482759
+        }
+      ]
+    },
+    {
+      "image": "frame_023205.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9301213026046753
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9019963702359347
+        }
+      ]
+    },
+    {
+      "image": "frame_023220.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9480987191200256
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.838475499092559
+        }
+      ]
+    },
+    {
+      "image": "frame_023235.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.8094962239265442
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 7,
+          "mask_iou": 0.8888888888888888
+        }
+      ]
+    },
+    {
+      "image": "frame_023250.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.934326171875
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8615984405458089
+        }
+      ]
+    },
+    {
+      "image": "frame_023265.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9386417865753174
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9129511677282378
+        }
+      ]
+    },
+    {
+      "image": "frame_023640.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_023760.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_024000.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_027075.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9379274845123291
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8951132300357568
+        }
+      ]
+    },
+    {
+      "image": "frame_027090.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9576212167739868
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.913151364764268
+        }
+      ]
+    },
+    {
+      "image": "frame_027105.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.967760443687439
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9031055900621118
+        }
+      ]
+    },
+    {
+      "image": "frame_027120.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9428799152374268
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8960880195599022
+        }
+      ]
+    },
+    {
+      "image": "frame_027165.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.8460531234741211
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8504901960784313
+        }
+      ]
+    },
+    {
+      "image": "frame_027180.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9282753467559814
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.889196675900277
+        }
+      ]
+    },
+    {
+      "image": "frame_027195.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9205536246299744
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8820224719101124
+        }
+      ]
+    },
+    {
+      "image": "frame_027210.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.892910897731781
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8461538461538461
+        }
+      ]
+    },
+    {
+      "image": "frame_027225.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9317672252655029
+        },
+        {
+          "class": 7,
+          "confidence": 0.6403341293334961
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8842364532019704
+        },
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9269911504424779
+        }
+      ]
+    },
+    {
+      "image": "frame_027240.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9592531323432922
+        },
+        {
+          "class": 3,
+          "confidence": 0.9477665424346924
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9159836065573771
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8666666666666667
+        }
+      ]
+    },
+    {
+      "image": "frame_027270.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9567203521728516
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8730434782608696
+        }
+      ]
+    },
+    {
+      "image": "frame_027285.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9413552284240723
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9070567986230637
+        }
+      ]
+    },
+    {
+      "image": "frame_027300.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.961241602897644
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8816855753646677
+        }
+      ]
+    },
+    {
+      "image": "frame_027315.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9543160200119019
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9029275808936826
+        }
+      ]
+    },
+    {
+      "image": "frame_027345.png",
+      "truth_classes": [
+        3,
+        7
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9686596393585205
+        },
+        {
+          "class": 7,
+          "confidence": 0.9119495749473572
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8158995815899581
+        },
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8972972972972973
+        }
+      ]
+    },
+    {
+      "image": "frame_027360.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9606481790542603
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8381742738589212
+        }
+      ]
+    },
+    {
+      "image": "frame_027375.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9443017244338989
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.849015317286652
+        }
+      ]
+    },
+    {
+      "image": "frame_027390.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9376921653747559
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8611111111111112
+        }
+      ]
+    },
+    {
+      "image": "frame_027405.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.89387047290802
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8604651162790697
+        }
+      ]
+    },
+    {
+      "image": "frame_027420.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9388004541397095
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8146453089244852
+        }
+      ]
+    },
+    {
+      "image": "frame_027480.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.977921724319458
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9024081115335868
+        }
+      ]
+    },
+    {
+      "image": "frame_027495.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9581875801086426
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9066834804539723
+        }
+      ]
+    },
+    {
+      "image": "frame_027510.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.8996286392211914
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.839258114374034
+        }
+      ]
+    },
+    {
+      "image": "frame_028320.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_028365.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.9248049259185791
+        },
+        {
+          "class": 7,
+          "confidence": 0.7469412684440613
+        },
+        {
+          "class": 1,
+          "confidence": 0.7262415289878845
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8702702702702703
+        },
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.886896551724138
+        }
+      ]
+    },
+    {
+      "image": "frame_028380.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9207968711853027
+        },
+        {
+          "class": 3,
+          "confidence": 0.9088866710662842
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9080459770114943
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.844632768361582
+        }
+      ]
+    },
+    {
+      "image": "frame_028395.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9621782898902893
+        },
+        {
+          "class": 3,
+          "confidence": 0.9284466505050659
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8873591989987485
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.884393063583815
+        }
+      ]
+    },
+    {
+      "image": "frame_028410.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9685844779014587
+        },
+        {
+          "class": 3,
+          "confidence": 0.9661191701889038
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9006369426751593
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8193384223918575
+        }
+      ]
+    },
+    {
+      "image": "frame_028425.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9746533632278442
+        },
+        {
+          "class": 3,
+          "confidence": 0.9579681158065796
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8832298136645963
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8816425120772947
+        }
+      ]
+    },
+    {
+      "image": "frame_028440.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9760966300964355
+        },
+        {
+          "class": 3,
+          "confidence": 0.9724516868591309
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8912783751493429
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8758620689655172
+        }
+      ]
+    },
+    {
+      "image": "frame_028455.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9755940437316895
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 3,
+          "mask_iou": 0.910950661853189
+        }
+      ]
+    },
+    {
+      "image": "frame_028500.png",
+      "truth_classes": [
+        3
+      ],
+      "predictions": [
+        {
+          "class": 3,
+          "confidence": 0.7437073588371277
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8622881355932204
+        }
+      ]
+    },
+    {
+      "image": "frame_028530.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9636224508285522
+        },
+        {
+          "class": 3,
+          "confidence": 0.9220015406608582
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9054669703872438
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.834733893557423
+        }
+      ]
+    },
+    {
+      "image": "frame_028545.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9798780679702759
+        },
+        {
+          "class": 3,
+          "confidence": 0.9337759017944336
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9194711538461539
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8770053475935828
+        }
+      ]
+    },
+    {
+      "image": "frame_028560.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9769718647003174
+        },
+        {
+          "class": 3,
+          "confidence": 0.9314261674880981
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9266750948166877
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8802083333333334
+        }
+      ]
+    },
+    {
+      "image": "frame_028575.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9687279462814331
+        },
+        {
+          "class": 3,
+          "confidence": 0.9520657658576965
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9183937823834197
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8857142857142857
+        }
+      ]
+    },
+    {
+      "image": "frame_028590.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9825479984283447
+        },
+        {
+          "class": 3,
+          "confidence": 0.9662625193595886
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9093264248704663
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.9022869022869023
+        }
+      ]
+    },
+    {
+      "image": "frame_028605.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9772039651870728
+        },
+        {
+          "class": 3,
+          "confidence": 0.9123785495758057
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9232769830949284
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.9151873767258383
+        }
+      ]
+    },
+    {
+      "image": "frame_028620.png",
+      "truth_classes": [
+        7,
+        3
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9571748971939087
+        },
+        {
+          "class": 3,
+          "confidence": 0.8076636791229248
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9294436906377205
+        },
+        {
+          "predicted_class": 3,
+          "true_class": 3,
+          "mask_iou": 0.8210526315789474
+        }
+      ]
+    },
+    {
+      "image": "frame_034200.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9438143372535706
+        },
+        {
+          "class": 4,
+          "confidence": 0.7299551963806152
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9153046062407132
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9132893496701225
+        }
+      ]
+    },
+    {
+      "image": "frame_034215.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9636976718902588
+        },
+        {
+          "class": 6,
+          "confidence": 0.747006893157959
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9054652880354506
+        },
+        {
+          "predicted_class": 6,
+          "true_class": 6,
+          "mask_iou": 0.9216981132075471
+        }
+      ]
+    },
+    {
+      "image": "frame_034230.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9642112851142883
+        },
+        {
+          "class": 6,
+          "confidence": 0.5656232833862305
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9137426900584795
+        },
+        {
+          "predicted_class": 6,
+          "true_class": 6,
+          "mask_iou": 0.9001831501831502
+        }
+      ]
+    },
+    {
+      "image": "frame_034245.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9366624355316162
+        },
+        {
+          "class": 4,
+          "confidence": 0.8884776830673218
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.8842592592592593
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9107303877366997
+        }
+      ]
+    },
+    {
+      "image": "frame_034260.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.8756064176559448
+        },
+        {
+          "class": 4,
+          "confidence": 0.6040577292442322
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9222042139384117
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9175965665236051
+        }
+      ]
+    },
+    {
+      "image": "frame_034275.png",
+      "truth_classes": [
+        7,
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.7583011388778687
+        },
+        {
+          "class": 7,
+          "confidence": 0.7466626167297363
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.9189627228525121
+        },
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.911965811965812
+        }
+      ]
+    },
+    {
+      "image": "frame_034305.png",
+      "truth_classes": [
+        7
+      ],
+      "predictions": [
+        {
+          "class": 7,
+          "confidence": 0.9479246139526367
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 7,
+          "true_class": 7,
+          "mask_iou": 0.899488926746167
+        }
+      ]
+    },
+    {
+      "image": "frame_034380.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9154865741729736
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9015486725663717
+        }
+      ]
+    },
+    {
+      "image": "frame_034395.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.7108824253082275
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.8805031446540881
+        }
+      ]
+    },
+    {
+      "image": "frame_034410.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.8856173157691956
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.8830347734457323
+        }
+      ]
+    },
+    {
+      "image": "frame_034425.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9327999353408813
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9081967213114754
+        }
+      ]
+    },
+    {
+      "image": "frame_034440.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9546045064926147
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9067982456140351
+        }
+      ]
+    },
+    {
+      "image": "frame_034455.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9531437158584595
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.9041533546325878
+        }
+      ]
+    },
+    {
+      "image": "frame_034470.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.9474673867225647
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.8956796628029505
+        }
+      ]
+    },
+    {
+      "image": "frame_034485.png",
+      "truth_classes": [
+        6
+      ],
+      "predictions": [
+        {
+          "class": 4,
+          "confidence": 0.8523213863372803
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 4,
+          "true_class": 6,
+          "mask_iou": 0.8954895489548955
+        }
+      ]
+    },
+    {
+      "image": "frame_034560.png",
+      "truth_classes": [],
+      "predictions": [],
+      "matches": []
+    },
+    {
+      "image": "frame_039450.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.8055214881896973
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9229480737018425
+        }
+      ]
+    },
+    {
+      "image": "frame_039465.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.7554157376289368
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 5,
+          "mask_iou": 0.9101796407185628
+        }
+      ]
+    },
+    {
+      "image": "frame_039480.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.6834145188331604
+        },
+        {
+          "class": 5,
+          "confidence": 0.5916435122489929
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9262792714657415
+        }
+      ]
+    },
+    {
+      "image": "frame_039495.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.9151188731193542
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 1,
+          "true_class": 5,
+          "mask_iou": 0.9378774805867127
+        }
+      ]
+    },
+    {
+      "image": "frame_039510.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9614304304122925
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9281961471103327
+        }
+      ]
+    },
+    {
+      "image": "frame_039525.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9485450983047485
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9146666666666666
+        }
+      ]
+    },
+    {
+      "image": "frame_039600.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9735128879547119
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9449127031908489
+        }
+      ]
+    },
+    {
+      "image": "frame_039615.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9772837162017822
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9549337260677467
+        }
+      ]
+    },
+    {
+      "image": "frame_039645.png",
+      "truth_classes": [
+        0,
+        5
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9759821891784668
+        },
+        {
+          "class": 5,
+          "confidence": 0.9607780575752258
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9415170816444702
+        },
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.929471032745592
+        }
+      ]
+    },
+    {
+      "image": "frame_039660.png",
+      "truth_classes": [
+        0,
+        5
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9608750343322754
+        },
+        {
+          "class": 5,
+          "confidence": 0.9466418027877808
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9444444444444444
+        },
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.946236559139785
+        }
+      ]
+    },
+    {
+      "image": "frame_039675.png",
+      "truth_classes": [
+        0,
+        5
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9736688137054443
+        },
+        {
+          "class": 5,
+          "confidence": 0.9660172462463379
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9270306258322237
+        },
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9292107404393816
+        }
+      ]
+    },
+    {
+      "image": "frame_039690.png",
+      "truth_classes": [
+        0,
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9717626571655273
+        },
+        {
+          "class": 0,
+          "confidence": 0.9713934659957886
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9326923076923077
+        },
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9280282455187399
+        }
+      ]
+    },
+    {
+      "image": "frame_039705.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9675580263137817
+        },
+        {
+          "class": 0,
+          "confidence": 0.811710000038147
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9553846153846154
+        }
+      ]
+    },
+    {
+      "image": "frame_039720.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9685623645782471
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9494799405646359
+        }
+      ]
+    },
+    {
+      "image": "frame_039735.png",
+      "truth_classes": [
+        5
+      ],
+      "predictions": [
+        {
+          "class": 5,
+          "confidence": 0.9424871802330017
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 5,
+          "true_class": 5,
+          "mask_iou": 0.9465361445783133
+        }
+      ]
+    },
+    {
+      "image": "frame_039780.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9501502513885498
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.8863799283154122
+        }
+      ]
+    },
+    {
+      "image": "frame_039795.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9584405422210693
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9453738477296005
+        }
+      ]
+    },
+    {
+      "image": "frame_039810.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9480939507484436
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.936768149882904
+        }
+      ]
+    },
+    {
+      "image": "frame_039825.png",
+      "truth_classes": [
+        0
+      ],
+      "predictions": [
+        {
+          "class": 0,
+          "confidence": 0.9087446928024292
+        }
+      ],
+      "matches": [
+        {
+          "predicted_class": 0,
+          "true_class": 0,
+          "mask_iou": 0.9480696959344038
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "architecture": "YOLO11n-seg",
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_shapes": [
+    [
+      1,
+      44,
+      8400
+    ],
+    [
+      1,
+      32,
+      160,
+      160
+    ]
+  ],
+  "opset": 12,
+  "dynamic": false,
+  "nms": false,
+  "classes": {
+    "0": "Pieza_01",
+    "1": "Pieza_02",
+    "2": "Pieza_03",
+    "3": "Pieza_04",
+    "4": "Pieza_05",
+    "5": "Pieza_06",
+    "6": "Pieza_07",
+    "7": "Pieza_08"
+  },
+  "onnx_sha256": "10baf9306cdc788171746e60c9060f5725f49aff273db56342b40c19acbfba23",
+  "raw_output_comparisons": [
+    {
+      "image": "frame_006600.jpg",
+      "max_abs_prediction_error": 0.0016632080078125,
+      "max_abs_prototype_error": 3.838539123535156e-05
+    },
+    {
+      "image": "frame_006660.jpg",
+      "max_abs_prediction_error": 0.001495361328125,
+      "max_abs_prototype_error": 3.540515899658203e-05
+    },
+    {
+      "image": "frame_006675.jpg",
+      "max_abs_prediction_error": 0.00152587890625,
+      "max_abs_prototype_error": 3.3020973205566406e-05
+    }
+  ],
+  "ultralytics": "8.4.70",
+  "torch": "2.6.0+cu124",
+  "python": "3.13.5",
+  "dataset_directory": "C:\\Users\\diego\\OneDrive\\UVG\\PryGrd\\Entrenamiento_Modelo\\Entrenamiento_V3\\YOLO11n_seg_pipeline\\dataset",
+  "onnx_file": "C:\\Users\\diego\\OneDrive\\UVG\\PryGrd\\Entrenamiento_Modelo\\Entrenamiento_V3\\YOLO11n_seg_pipeline\\DFRobot_Ready\\best.onnx",
+  "remaining": "Use the official DFRobot package generator, then validate the quantized model on HuskyLens 2."
+}

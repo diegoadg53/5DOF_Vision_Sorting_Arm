@@ -1,0 +1,30 @@
+[
+  {
+    "true_class": "Pieza_02",
+    "image": "frame_006660.png",
+    "predicted_class": "Pieza_02",
+    "confidence": 0.9610108137130737,
+    "mask_iou": 0.8989298454221165
+  },
+  {
+    "true_class": "Pieza_06",
+    "image": "frame_039465.png",
+    "predicted_class": "Pieza_02",
+    "confidence": 0.7554157376289368,
+    "mask_iou": 0.9101796407185628
+  },
+  {
+    "true_class": "Pieza_05",
+    "image": "frame_019875.png",
+    "predicted_class": "Pieza_05",
+    "confidence": 0.8892192840576172,
+    "mask_iou": 0.9035004730368968
+  },
+  {
+    "true_class": "Pieza_07",
+    "image": "frame_034200.png",
+    "predicted_class": "Pieza_05",
+    "confidence": 0.7299551963806152,
+    "mask_iou": 0.9132893496701225
+  }
+]

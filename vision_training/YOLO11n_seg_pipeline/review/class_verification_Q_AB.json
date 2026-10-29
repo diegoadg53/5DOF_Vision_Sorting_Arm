@@ -1,0 +1,74 @@
+[
+  {
+    "letter": "Q",
+    "track_id": 150,
+    "time": 607.3456845925714,
+    "class_name": null
+  },
+  {
+    "letter": "R",
+    "track_id": 153,
+    "time": 612.9645260816532,
+    "class_name": null
+  },
+  {
+    "letter": "S",
+    "track_id": 173,
+    "time": 656.8936504508383,
+    "class_name": null
+  },
+  {
+    "letter": "T",
+    "track_id": 190,
+    "time": 698.7795597330846,
+    "class_name": null
+  },
+  {
+    "letter": "U",
+    "track_id": 234,
+    "time": 840.7830082753343,
+    "class_name": null
+  },
+  {
+    "letter": "V",
+    "track_id": 237,
+    "time": 853.0422987969673,
+    "class_name": null
+  },
+  {
+    "letter": "W",
+    "track_id": 308,
+    "time": 996.5781586544211,
+    "class_name": null
+  },
+  {
+    "letter": "X",
+    "track_id": 315,
+    "time": 1004.2402152304418,
+    "class_name": null
+  },
+  {
+    "letter": "Y",
+    "track_id": 324,
+    "time": 1024.6723660998302,
+    "class_name": null
+  },
+  {
+    "letter": "Z",
+    "track_id": 333,
+    "time": 1037.442460393198,
+    "class_name": null
+  },
+  {
+    "letter": "AA",
+    "track_id": 395,
+    "time": 1183.0215353375906,
+    "class_name": null
+  },
+  {
+    "letter": "AB",
+    "track_id": 432,
+    "time": 1261.6853161847362,
+    "class_name": null
+  }
+]

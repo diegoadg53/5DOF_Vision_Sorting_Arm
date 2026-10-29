@@ -1,0 +1,265 @@
+{
+  "input_size": 640,
+  "padding_value": 0,
+  "runtime": "ONNX Runtime CPU FP32",
+  "validation": {
+    "overall": {
+      "metrics/precision(B)": 0.9344649506426304,
+      "metrics/recall(B)": 0.9448304068588375,
+      "metrics/mAP50(B)": 0.9801791633657163,
+      "metrics/mAP50-95(B)": 0.9296155496756384,
+      "metrics/precision(M)": 0.9344649506426304,
+      "metrics/recall(M)": 0.9448304068588375,
+      "metrics/mAP50(M)": 0.9801791633657163,
+      "metrics/mAP50-95(M)": 0.8567499950208083,
+      "fitness": 1.7863655446964466
+    },
+    "classes": {
+      "Pieza_01": {
+        "box_ap50": 0.995,
+        "box_ap50_95": 0.9187142857142858,
+        "mask_ap50": 0.995,
+        "mask_ap50_95": 0.9036666666666667,
+        "box_precision": 0.9723243970233916,
+        "box_recall": 1.0,
+        "mask_precision": 0.9723243970233916,
+        "mask_recall": 1.0
+      },
+      "Pieza_02": {
+        "box_ap50": 0.9897132838283828,
+        "box_ap50_95": 0.9458477110187223,
+        "mask_ap50": 0.9897132838283828,
+        "mask_ap50_95": 0.8670395317140762,
+        "box_precision": 0.9463399396726058,
+        "box_recall": 1.0,
+        "mask_precision": 0.9463399396726058,
+        "mask_recall": 1.0
+      },
+      "Pieza_03": {
+        "box_ap50": 0.9328181818181819,
+        "box_ap50_95": 0.871095670995671,
+        "mask_ap50": 0.9328181818181819,
+        "mask_ap50_95": 0.7971212121212121,
+        "box_precision": 0.9269979220606646,
+        "box_recall": 0.9081158439314954,
+        "mask_precision": 0.9269979220606646,
+        "mask_recall": 0.9081158439314954
+      },
+      "Pieza_04": {
+        "box_ap50": 0.978529411764706,
+        "box_ap50_95": 0.9292205882352942,
+        "mask_ap50": 0.978529411764706,
+        "mask_ap50_95": 0.799262176385706,
+        "box_precision": 0.8769212583565833,
+        "box_recall": 0.9230769230769231,
+        "mask_precision": 0.8769212583565833,
+        "mask_recall": 0.9230769230769231
+      },
+      "Pieza_05": {
+        "box_ap50": 0.9914705882352941,
+        "box_ap50_95": 0.9314053475935828,
+        "mask_ap50": 0.9914705882352941,
+        "mask_ap50_95": 0.9017267203384851,
+        "box_precision": 0.8169181295445251,
+        "box_recall": 1.0,
+        "mask_precision": 0.8169181295445251,
+        "mask_recall": 1.0
+      },
+      "Pieza_06": {
+        "box_ap50": 0.9713934426229507,
+        "box_ap50_95": 0.9454443616492796,
+        "mask_ap50": 0.9713934426229507,
+        "mask_ap50_95": 0.9150390507735524,
+        "box_precision": 1.0,
+        "box_recall": 0.8556383315147855,
+        "mask_precision": 1.0,
+        "mask_recall": 0.8556383315147855
+      },
+      "Pieza_07": {
+        "box_ap50": 0.9892105263157894,
+        "box_ap50_95": 0.9376739433811803,
+        "mask_ap50": 0.9892105263157894,
+        "mask_ap50_95": 0.8762982456140351,
+        "box_precision": 0.9794820222800931,
+        "box_recall": 0.8888888888888888,
+        "mask_precision": 0.9794820222800931,
+        "mask_recall": 0.8888888888888888
+      },
+      "Pieza_08": {
+        "box_ap50": 0.9932978723404257,
+        "box_ap50_95": 0.9575224888170915,
+        "mask_ap50": 0.9932978723404257,
+        "mask_ap50_95": 0.7938463565527326,
+        "box_precision": 0.9567359362031798,
+        "box_recall": 0.9829232674586074,
+        "mask_precision": 0.9567359362031798,
+        "mask_recall": 0.9829232674586074
+      }
+    }
+  },
+  "test": {
+    "overall": {
+      "metrics/precision(B)": 0.7794933867045835,
+      "metrics/recall(B)": 0.9270930594460005,
+      "metrics/mAP50(B)": 0.9049230251697518,
+      "metrics/mAP50-95(B)": 0.8613652782476467,
+      "metrics/precision(M)": 0.7794933867045835,
+      "metrics/recall(M)": 0.9270930594460005,
+      "metrics/mAP50(M)": 0.9049230251697518,
+      "metrics/mAP50-95(M)": 0.8150021496668767,
+      "fitness": 1.6763674279145233
+    },
+    "classes": {
+      "Pieza_01": {
+        "box_ap50": 0.995,
+        "box_ap50_95": 0.93,
+        "mask_ap50": 0.995,
+        "mask_ap50_95": 0.9271428571428573,
+        "box_precision": 0.8147289515227554,
+        "box_recall": 1.0,
+        "mask_precision": 0.8147289515227554,
+        "mask_recall": 1.0
+      },
+      "Pieza_02": {
+        "box_ap50": 0.9875191927301924,
+        "box_ap50_95": 0.9234470598454868,
+        "mask_ap50": 0.9875191927301924,
+        "mask_ap50_95": 0.9325931126441862,
+        "box_precision": 0.8658738339874231,
+        "box_recall": 1.0,
+        "mask_precision": 0.8658738339874231,
+        "mask_recall": 1.0
+      },
+      "Pieza_03": {
+        "box_ap50": 0.9099572503419975,
+        "box_ap50_95": 0.8305762342992168,
+        "mask_ap50": 0.9099572503419975,
+        "mask_ap50_95": 0.7311587746726599,
+        "box_precision": 0.8073313807052402,
+        "box_recall": 0.8823529411764706,
+        "mask_precision": 0.8073313807052402,
+        "mask_recall": 0.8823529411764706
+      },
+      "Pieza_04": {
+        "box_ap50": 0.9760025542784163,
+        "box_ap50_95": 0.9330402119348353,
+        "mask_ap50": 0.9760025542784163,
+        "mask_ap50_95": 0.8473692947070681,
+        "box_precision": 0.8577213170047926,
+        "box_recall": 0.9629629629629629,
+        "mask_precision": 0.8577213170047926,
+        "mask_recall": 0.9629629629629629
+      },
+      "Pieza_05": {
+        "box_ap50": 0.7757253857253857,
+        "box_ap50_95": 0.7502143856143857,
+        "mask_ap50": 0.7757253857253857,
+        "mask_ap50_95": 0.6708751803751805,
+        "box_precision": 0.3963420721260571,
+        "box_recall": 1.0,
+        "mask_precision": 0.3963420721260571,
+        "mask_recall": 1.0
+      },
+      "Pieza_06": {
+        "box_ap50": 0.995,
+        "box_ap50_95": 0.9949999999999999,
+        "mask_ap50": 0.995,
+        "mask_ap50_95": 0.9548034188034189,
+        "box_precision": 0.9958433616319138,
+        "box_recall": 1.0,
+        "mask_precision": 0.9958433616319138,
+        "mask_recall": 1.0
+      },
+      "Pieza_07": {
+        "box_ap50": 0.6236557192807194,
+        "box_ap50_95": 0.589842594905095,
+        "mask_ap50": 0.6236557192807194,
+        "mask_ap50_95": 0.5667187187812189,
+        "box_precision": 0.5646449985592552,
+        "box_recall": 0.5714285714285714,
+        "mask_precision": 0.5646449985592552,
+        "mask_recall": 0.5714285714285714
+      },
+      "Pieza_08": {
+        "box_ap50": 0.9765240990013028,
+        "box_ap50_95": 0.9388017393821546,
+        "mask_ap50": 0.9765240990013028,
+        "mask_ap50_95": 0.8893558402084238,
+        "box_precision": 0.9334611780992301,
+        "box_recall": 1.0,
+        "mask_precision": 0.9334611780992301,
+        "mask_recall": 1.0
+      }
+    }
+  },
+  "suggested_confidence_from_validation": 0.56,
+  "test_at_suggested_confidence": {
+    "confidence": 0.56,
+    "mask_match_iou": 0.5,
+    "per_class": {
+      "Pieza_01": {
+        "ground_truth": 10,
+        "true_positive": 10,
+        "false_positive": 1,
+        "precision": 0.9090909090909091,
+        "recall": 1.0
+      },
+      "Pieza_02": {
+        "ground_truth": 50,
+        "true_positive": 49,
+        "false_negative": 1,
+        "false_positive": 5,
+        "precision": 0.9074074074074074,
+        "recall": 0.98
+      },
+      "Pieza_03": {
+        "ground_truth": 17,
+        "true_positive": 14,
+        "false_negative": 3,
+        "precision": 1.0,
+        "recall": 0.8235294117647058
+      },
+      "Pieza_04": {
+        "false_positive": 1,
+        "ground_truth": 27,
+        "true_positive": 26,
+        "false_negative": 1,
+        "precision": 0.9629629629629629,
+        "recall": 0.9629629629629629
+      },
+      "Pieza_05": {
+        "ground_truth": 12,
+        "true_positive": 12,
+        "false_positive": 14,
+        "precision": 0.46153846153846156,
+        "recall": 1.0
+      },
+      "Pieza_06": {
+        "ground_truth": 13,
+        "true_positive": 11,
+        "false_negative": 2,
+        "precision": 1.0,
+        "recall": 0.8461538461538461
+      },
+      "Pieza_07": {
+        "false_positive": 2,
+        "ground_truth": 14,
+        "false_negative": 12,
+        "true_positive": 2,
+        "precision": 0.5,
+        "recall": 0.14285714285714285
+      },
+      "Pieza_08": {
+        "ground_truth": 47,
+        "true_positive": 46,
+        "false_negative": 1,
+        "false_positive": 1,
+        "precision": 0.9787234042553191,
+        "recall": 0.9787234042553191
+      }
+    },
+    "background_images": 7,
+    "background_false_positive_images": 0
+  },
+  "limitations": "Same recording and physical specimens. No nncase UINT8 conversion or physical camera inference was performed."
+}
